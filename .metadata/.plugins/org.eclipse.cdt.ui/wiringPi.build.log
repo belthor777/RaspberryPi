@@ -1,0 +1,200 @@
+00:41:52 **** Build of configuration lib for project wiringPi ****
+make all 
+Building file: ../src/wiringPi/wiringPi/drcSerial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/drcSerial.d" -MT"src/wiringPi/wiringPi/drcSerial.d" -o "src/wiringPi/wiringPi/drcSerial.o" "../src/wiringPi/wiringPi/drcSerial.c"
+Finished building: ../src/wiringPi/wiringPi/drcSerial.c
+ 
+Building file: ../src/wiringPi/wiringPi/max31855.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/max31855.d" -MT"src/wiringPi/wiringPi/max31855.d" -o "src/wiringPi/wiringPi/max31855.o" "../src/wiringPi/wiringPi/max31855.c"
+Finished building: ../src/wiringPi/wiringPi/max31855.c
+ 
+Building file: ../src/wiringPi/wiringPi/max5322.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/max5322.d" -MT"src/wiringPi/wiringPi/max5322.d" -o "src/wiringPi/wiringPi/max5322.o" "../src/wiringPi/wiringPi/max5322.c"
+Finished building: ../src/wiringPi/wiringPi/max5322.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp23008.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp23008.d" -MT"src/wiringPi/wiringPi/mcp23008.d" -o "src/wiringPi/wiringPi/mcp23008.o" "../src/wiringPi/wiringPi/mcp23008.c"
+Finished building: ../src/wiringPi/wiringPi/mcp23008.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp23016.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp23016.d" -MT"src/wiringPi/wiringPi/mcp23016.d" -o "src/wiringPi/wiringPi/mcp23016.o" "../src/wiringPi/wiringPi/mcp23016.c"
+Finished building: ../src/wiringPi/wiringPi/mcp23016.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp23017.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp23017.d" -MT"src/wiringPi/wiringPi/mcp23017.d" -o "src/wiringPi/wiringPi/mcp23017.o" "../src/wiringPi/wiringPi/mcp23017.c"
+Finished building: ../src/wiringPi/wiringPi/mcp23017.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp23s08.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp23s08.d" -MT"src/wiringPi/wiringPi/mcp23s08.d" -o "src/wiringPi/wiringPi/mcp23s08.o" "../src/wiringPi/wiringPi/mcp23s08.c"
+Finished building: ../src/wiringPi/wiringPi/mcp23s08.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp23s17.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp23s17.d" -MT"src/wiringPi/wiringPi/mcp23s17.d" -o "src/wiringPi/wiringPi/mcp23s17.o" "../src/wiringPi/wiringPi/mcp23s17.c"
+Finished building: ../src/wiringPi/wiringPi/mcp23s17.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp3002.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp3002.d" -MT"src/wiringPi/wiringPi/mcp3002.d" -o "src/wiringPi/wiringPi/mcp3002.o" "../src/wiringPi/wiringPi/mcp3002.c"
+Finished building: ../src/wiringPi/wiringPi/mcp3002.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp3004.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp3004.d" -MT"src/wiringPi/wiringPi/mcp3004.d" -o "src/wiringPi/wiringPi/mcp3004.o" "../src/wiringPi/wiringPi/mcp3004.c"
+Finished building: ../src/wiringPi/wiringPi/mcp3004.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp3422.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp3422.d" -MT"src/wiringPi/wiringPi/mcp3422.d" -o "src/wiringPi/wiringPi/mcp3422.o" "../src/wiringPi/wiringPi/mcp3422.c"
+Finished building: ../src/wiringPi/wiringPi/mcp3422.c
+ 
+Building file: ../src/wiringPi/wiringPi/mcp4802.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/mcp4802.d" -MT"src/wiringPi/wiringPi/mcp4802.d" -o "src/wiringPi/wiringPi/mcp4802.o" "../src/wiringPi/wiringPi/mcp4802.c"
+Finished building: ../src/wiringPi/wiringPi/mcp4802.c
+ 
+Building file: ../src/wiringPi/wiringPi/pcf8574.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/pcf8574.d" -MT"src/wiringPi/wiringPi/pcf8574.d" -o "src/wiringPi/wiringPi/pcf8574.o" "../src/wiringPi/wiringPi/pcf8574.c"
+Finished building: ../src/wiringPi/wiringPi/pcf8574.c
+ 
+Building file: ../src/wiringPi/wiringPi/pcf8591.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/pcf8591.d" -MT"src/wiringPi/wiringPi/pcf8591.d" -o "src/wiringPi/wiringPi/pcf8591.o" "../src/wiringPi/wiringPi/pcf8591.c"
+Finished building: ../src/wiringPi/wiringPi/pcf8591.c
+ 
+Building file: ../src/wiringPi/wiringPi/piHiPri.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/piHiPri.d" -MT"src/wiringPi/wiringPi/piHiPri.d" -o "src/wiringPi/wiringPi/piHiPri.o" "../src/wiringPi/wiringPi/piHiPri.c"
+Finished building: ../src/wiringPi/wiringPi/piHiPri.c
+ 
+Building file: ../src/wiringPi/wiringPi/piThread.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/piThread.d" -MT"src/wiringPi/wiringPi/piThread.d" -o "src/wiringPi/wiringPi/piThread.o" "../src/wiringPi/wiringPi/piThread.c"
+Finished building: ../src/wiringPi/wiringPi/piThread.c
+ 
+Building file: ../src/wiringPi/wiringPi/sn3218.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/sn3218.d" -MT"src/wiringPi/wiringPi/sn3218.d" -o "src/wiringPi/wiringPi/sn3218.o" "../src/wiringPi/wiringPi/sn3218.c"
+Finished building: ../src/wiringPi/wiringPi/sn3218.c
+ 
+Building file: ../src/wiringPi/wiringPi/softPwm.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/softPwm.d" -MT"src/wiringPi/wiringPi/softPwm.d" -o "src/wiringPi/wiringPi/softPwm.o" "../src/wiringPi/wiringPi/softPwm.c"
+Finished building: ../src/wiringPi/wiringPi/softPwm.c
+ 
+Building file: ../src/wiringPi/wiringPi/softServo.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/softServo.d" -MT"src/wiringPi/wiringPi/softServo.d" -o "src/wiringPi/wiringPi/softServo.o" "../src/wiringPi/wiringPi/softServo.c"
+Finished building: ../src/wiringPi/wiringPi/softServo.c
+ 
+Building file: ../src/wiringPi/wiringPi/softTone.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/softTone.d" -MT"src/wiringPi/wiringPi/softTone.d" -o "src/wiringPi/wiringPi/softTone.o" "../src/wiringPi/wiringPi/softTone.c"
+Finished building: ../src/wiringPi/wiringPi/softTone.c
+ 
+Building file: ../src/wiringPi/wiringPi/sr595.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/sr595.d" -MT"src/wiringPi/wiringPi/sr595.d" -o "src/wiringPi/wiringPi/sr595.o" "../src/wiringPi/wiringPi/sr595.c"
+Finished building: ../src/wiringPi/wiringPi/sr595.c
+ 
+Building file: ../src/wiringPi/wiringPi/wiringPi.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/wiringPi.d" -MT"src/wiringPi/wiringPi/wiringPi.d" -o "src/wiringPi/wiringPi/wiringPi.o" "../src/wiringPi/wiringPi/wiringPi.c"
+Finished building: ../src/wiringPi/wiringPi/wiringPi.c
+ 
+Building file: ../src/wiringPi/wiringPi/wiringPiI2C.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/wiringPiI2C.d" -MT"src/wiringPi/wiringPi/wiringPiI2C.d" -o "src/wiringPi/wiringPi/wiringPiI2C.o" "../src/wiringPi/wiringPi/wiringPiI2C.c"
+Finished building: ../src/wiringPi/wiringPi/wiringPiI2C.c
+ 
+Building file: ../src/wiringPi/wiringPi/wiringPiSPI.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/wiringPiSPI.d" -MT"src/wiringPi/wiringPi/wiringPiSPI.d" -o "src/wiringPi/wiringPi/wiringPiSPI.o" "../src/wiringPi/wiringPi/wiringPiSPI.c"
+Finished building: ../src/wiringPi/wiringPi/wiringPiSPI.c
+ 
+Building file: ../src/wiringPi/wiringPi/wiringSerial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/wiringSerial.d" -MT"src/wiringPi/wiringPi/wiringSerial.d" -o "src/wiringPi/wiringPi/wiringSerial.o" "../src/wiringPi/wiringPi/wiringSerial.c"
+Finished building: ../src/wiringPi/wiringPi/wiringSerial.c
+ 
+Building file: ../src/wiringPi/wiringPi/wiringShift.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/wiringShift.d" -MT"src/wiringPi/wiringPi/wiringShift.d" -o "src/wiringPi/wiringPi/wiringShift.o" "../src/wiringPi/wiringPi/wiringShift.c"
+Finished building: ../src/wiringPi/wiringPi/wiringShift.c
+ 
+Building file: ../src/wiringPi/wiringPi/wpiExtensions.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/wiringPi/wpiExtensions.d" -MT"src/wiringPi/wiringPi/wpiExtensions.d" -o "src/wiringPi/wiringPi/wpiExtensions.o" "../src/wiringPi/wiringPi/wpiExtensions.c"
+Finished building: ../src/wiringPi/wiringPi/wpiExtensions.c
+ 
+Building file: ../src/wiringPi/gpio/gpio.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/gpio/gpio.d" -MT"src/wiringPi/gpio/gpio.d" -o "src/wiringPi/gpio/gpio.o" "../src/wiringPi/gpio/gpio.c"
+Finished building: ../src/wiringPi/gpio/gpio.c
+ 
+Building file: ../src/wiringPi/gpio/pins.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/gpio/pins.d" -MT"src/wiringPi/gpio/pins.d" -o "src/wiringPi/gpio/pins.o" "../src/wiringPi/gpio/pins.c"
+Finished building: ../src/wiringPi/gpio/pins.c
+ 
+Building file: ../src/wiringPi/gpio/readall.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/gpio/readall.d" -MT"src/wiringPi/gpio/readall.d" -o "src/wiringPi/gpio/readall.o" "../src/wiringPi/gpio/readall.c"
+Finished building: ../src/wiringPi/gpio/readall.c
+ 
+Building file: ../src/wiringPi/devLib/ds1302.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/ds1302.d" -MT"src/wiringPi/devLib/ds1302.d" -o "src/wiringPi/devLib/ds1302.o" "../src/wiringPi/devLib/ds1302.c"
+Finished building: ../src/wiringPi/devLib/ds1302.c
+ 
+Building file: ../src/wiringPi/devLib/gertboard.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/gertboard.d" -MT"src/wiringPi/devLib/gertboard.d" -o "src/wiringPi/devLib/gertboard.o" "../src/wiringPi/devLib/gertboard.c"
+Finished building: ../src/wiringPi/devLib/gertboard.c
+ 
+Building file: ../src/wiringPi/devLib/lcd.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/lcd.d" -MT"src/wiringPi/devLib/lcd.d" -o "src/wiringPi/devLib/lcd.o" "../src/wiringPi/devLib/lcd.c"
+Finished building: ../src/wiringPi/devLib/lcd.c
+ 
+Building file: ../src/wiringPi/devLib/lcd128x64.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/lcd128x64.d" -MT"src/wiringPi/devLib/lcd128x64.d" -o "src/wiringPi/devLib/lcd128x64.o" "../src/wiringPi/devLib/lcd128x64.c"
+Finished building: ../src/wiringPi/devLib/lcd128x64.c
+ 
+Building file: ../src/wiringPi/devLib/maxdetect.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/maxdetect.d" -MT"src/wiringPi/devLib/maxdetect.d" -o "src/wiringPi/devLib/maxdetect.o" "../src/wiringPi/devLib/maxdetect.c"
+Finished building: ../src/wiringPi/devLib/maxdetect.c
+ 
+Building file: ../src/wiringPi/devLib/piFace.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/piFace.d" -MT"src/wiringPi/devLib/piFace.d" -o "src/wiringPi/devLib/piFace.o" "../src/wiringPi/devLib/piFace.c"
+Finished building: ../src/wiringPi/devLib/piFace.c
+ 
+Building file: ../src/wiringPi/devLib/piGlow.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/piGlow.d" -MT"src/wiringPi/devLib/piGlow.d" -o "src/wiringPi/devLib/piGlow.o" "../src/wiringPi/devLib/piGlow.c"
+Finished building: ../src/wiringPi/devLib/piGlow.c
+ 
+Building file: ../src/wiringPi/devLib/piNes.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/devLib" -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/wiringPi/devLib/piNes.d" -MT"src/wiringPi/devLib/piNes.d" -o "src/wiringPi/devLib/piNes.o" "../src/wiringPi/devLib/piNes.c"
+Finished building: ../src/wiringPi/devLib/piNes.c
+ 
+Building target: libwiringPi.so
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -shared -o "libwiringPi.so"  ./src/wiringPi/wiringPi/drcSerial.o ./src/wiringPi/wiringPi/max31855.o ./src/wiringPi/wiringPi/max5322.o ./src/wiringPi/wiringPi/mcp23008.o ./src/wiringPi/wiringPi/mcp23016.o ./src/wiringPi/wiringPi/mcp23017.o ./src/wiringPi/wiringPi/mcp23s08.o ./src/wiringPi/wiringPi/mcp23s17.o ./src/wiringPi/wiringPi/mcp3002.o ./src/wiringPi/wiringPi/mcp3004.o ./src/wiringPi/wiringPi/mcp3422.o ./src/wiringPi/wiringPi/mcp4802.o ./src/wiringPi/wiringPi/pcf8574.o ./src/wiringPi/wiringPi/pcf8591.o ./src/wiringPi/wiringPi/piHiPri.o ./src/wiringPi/wiringPi/piThread.o ./src/wiringPi/wiringPi/sn3218.o ./src/wiringPi/wiringPi/softPwm.o ./src/wiringPi/wiringPi/softServo.o ./src/wiringPi/wiringPi/softTone.o ./src/wiringPi/wiringPi/sr595.o ./src/wiringPi/wiringPi/wiringPi.o ./src/wiringPi/wiringPi/wiringPiI2C.o ./src/wiringPi/wiringPi/wiringPiSPI.o ./src/wiringPi/wiringPi/wiringSerial.o ./src/wiringPi/wiringPi/wiringShift.o ./src/wiringPi/wiringPi/wpiExtensions.o  ./src/wiringPi/gpio/gpio.o ./src/wiringPi/gpio/pins.o ./src/wiringPi/gpio/readall.o  ./src/wiringPi/devLib/ds1302.o ./src/wiringPi/devLib/gertboard.o ./src/wiringPi/devLib/lcd.o ./src/wiringPi/devLib/lcd128x64.o ./src/wiringPi/devLib/maxdetect.o ./src/wiringPi/devLib/piFace.o ./src/wiringPi/devLib/piGlow.o ./src/wiringPi/devLib/piNes.o   -lpthread
+Finished building target: libwiringPi.so
+ 
+
+00:41:56 Build Finished (took 4s.441ms)
+
