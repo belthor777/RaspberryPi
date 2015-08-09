@@ -10,3 +10,6 @@
 [submodule "wiringPi"]
 	path = wiringPi
 	url = git://git.drogon.net/wiringPi
+[submodule "wiringPi/src/wiringPi"]
+	path = wiringPi/src/wiringPi
+	url = git://git.drogon.net/wiringPi
