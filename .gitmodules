@@ -1,3 +1,6 @@
 [submodule "tools"]
 	path = tools
 	url = https://github.com/raspberrypi/tools.git
+[submodule "ARPI600/WiringPi2-Python"]
+	path = ARPI600/WiringPi2-Python
+	url = https://github.com/WiringPi/WiringPi2-Python.git
