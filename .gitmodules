@@ -7,3 +7,6 @@
 [submodule "ARPI600_C-samples/wiringPi"]
 	path = ARPI600_C-samples/wiringPi
 	url = git://git.drogon.net/wiringPi
+[submodule "wiringPi"]
+	path = wiringPi
+	url = git://git.drogon.net/wiringPi
