@@ -158,3 +158,60 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.php.sm
 
 !ENTRY org.eclipse.rse.core 1 0 2015-08-10 21:19:48.686
 !MESSAGE Saved passwords are not available for migration to secure storage. Deprecated authorization classes (org.eclipse.core.runtime.compatibility.auth) are not installed.
+
+!ENTRY org.eclipse.cdt.launch.remote 4 150 2015-08-10 21:35:12.152
+!MESSAGE Error during file upload.
+!STACK 0
+org.eclipse.rse.services.files.RemoteFileIOException: Operation failed. File system input or output error
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.makeSystemMessageException(SftpFileService.java:601)
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.upload(SftpFileService.java:894)
+	at org.eclipse.cdt.launch.remote.RSEHelper.remoteFileDownload(RSEHelper.java:198)
+	at org.eclipse.cdt.launch.remote.launching.RemoteRunLaunchDelegate.launch(RemoteRunLaunchDelegate.java:299)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch.remote 4 150 2015-08-10 21:35:12.152
+!MESSAGE Operation failed. File system input or output error
+!STACK 0
+org.eclipse.rse.services.files.RemoteFileIOException: Operation failed. File system input or output error
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.makeSystemMessageException(SftpFileService.java:601)
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.upload(SftpFileService.java:894)
+	at org.eclipse.cdt.launch.remote.RSEHelper.remoteFileDownload(RSEHelper.java:198)
+	at org.eclipse.cdt.launch.remote.launching.RemoteRunLaunchDelegate.launch(RemoteRunLaunchDelegate.java:299)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch.remote 4 150 2015-08-10 21:35:16.544
+!MESSAGE Error during file upload.
+!STACK 0
+org.eclipse.rse.services.files.RemoteFileIOException: Operation failed. File system input or output error
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.makeSystemMessageException(SftpFileService.java:601)
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.upload(SftpFileService.java:894)
+	at org.eclipse.cdt.launch.remote.RSEHelper.remoteFileDownload(RSEHelper.java:198)
+	at org.eclipse.cdt.launch.remote.launching.RemoteGdbLaunchDelegate.launch(RemoteGdbLaunchDelegate.java:74)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch.remote 4 150 2015-08-10 21:35:16.544
+!MESSAGE Operation failed. File system input or output error
+!STACK 0
+org.eclipse.rse.services.files.RemoteFileIOException: Operation failed. File system input or output error
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.makeSystemMessageException(SftpFileService.java:601)
+	at org.eclipse.rse.internal.services.ssh.files.SftpFileService.upload(SftpFileService.java:894)
+	at org.eclipse.cdt.launch.remote.RSEHelper.remoteFileDownload(RSEHelper.java:198)
+	at org.eclipse.cdt.launch.remote.launching.RemoteGdbLaunchDelegate.launch(RemoteGdbLaunchDelegate.java:74)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 5012 2015-08-10 21:35:35.877
+!MESSAGE Launch configuration ARPI600_C-samples Debug at file:/home/thomas/workspace/RaspberryPi/.metadata/.plugins/org.eclipse.debug.core/.launches/ARPI600_C-samples%20Debug.launch does not exist.

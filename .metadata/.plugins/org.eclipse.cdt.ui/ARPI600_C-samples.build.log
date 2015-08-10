@@ -1,15 +1,6 @@
-21:19:47 **** Incremental Build of configuration Debug for project ARPI600_C-samples ****
+21:45:31 **** Incremental Build of configuration Debug for project ARPI600_C-samples ****
 make all 
-Building file: ../src/Temperature-Humidity_Sensor/DHT11.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Temperature-Humidity_Sensor/DHT11.d" -MT"src/Temperature-Humidity_Sensor/DHT11.d" -o "src/Temperature-Humidity_Sensor/DHT11.o" "../src/Temperature-Humidity_Sensor/DHT11.c"
-Finished building: ../src/Temperature-Humidity_Sensor/DHT11.c
- 
-Building target: ARPI600_C-samples
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L"/home/thomas/workspace/RaspberryPi/wiringPi/lib" -o "ARPI600_C-samples"  ./src/Temperature-Humidity_Sensor/DHT11.o   -lwiringPi
-Finished building target: ARPI600_C-samples
- 
+make: Für das Ziel »all« ist nichts zu tun.
 
-21:19:48 Build Finished (took 620ms)
+21:45:31 Build Finished (took 65ms)
 

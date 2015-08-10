@@ -55,7 +55,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="Laser_Sensor|Blink_LED|Metal_Sensor|Color_Sensor|helloworld.c|MQ-5_Gas_Sensor|Infrared_Reflective_Sensor|Rotation_Sensor|Hall_Sensor|Tilt_Sensor|Moisture_Sensor|Sound_Sensor|Liquid_Level_Sensor|Flame_Sensor|UV_Sensor" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Temperature-Humidity_Sensor|Laser_Sensor|Blink_LED|Metal_Sensor|Color_Sensor|helloworld.c|MQ-5_Gas_Sensor|Infrared_Reflective_Sensor|Rotation_Sensor|Hall_Sensor|Tilt_Sensor|Moisture_Sensor|Sound_Sensor|Liquid_Level_Sensor|Flame_Sensor|UV_Sensor" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -105,7 +105,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="Laser_Sensor|Blink_LED|Metal_Sensor|Color_Sensor|helloworld.c|MQ-5_Gas_Sensor|Infrared_Reflective_Sensor|Rotation_Sensor|Hall_Sensor|Tilt_Sensor|Moisture_Sensor|Sound_Sensor|Liquid_Level_Sensor|Flame_Sensor|UV_Sensor" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Temperature-Humidity_Sensor|Laser_Sensor|Blink_LED|Metal_Sensor|Color_Sensor|helloworld.c|MQ-5_Gas_Sensor|Infrared_Reflective_Sensor|Rotation_Sensor|Hall_Sensor|Tilt_Sensor|Moisture_Sensor|Sound_Sensor|Liquid_Level_Sensor|Flame_Sensor|UV_Sensor" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

@@ -1,18 +1,22 @@
-21:17:35 **** Incremental Build of configuration Debug for project ARPI600_C-samples ****
+21:45:08 **** Build of configuration Debug for project ARPI600_C-samples ****
 make all 
-make: Für das Ziel »all« ist nichts zu tun.
-21:17:49 **** Incremental Build of configuration Debug for project ARPI600_C-samples ****
-make all 
-make: Für das Ziel »all« ist nichts zu tun.
-21:19:47 **** Incremental Build of configuration Debug for project ARPI600_C-samples ****
-make all 
-Building file: ../src/Temperature-Humidity_Sensor/DHT11.c
+Building file: ../src/AD_TLC1543/tlc1543.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Temperature-Humidity_Sensor/DHT11.d" -MT"src/Temperature-Humidity_Sensor/DHT11.d" -o "src/Temperature-Humidity_Sensor/DHT11.o" "../src/Temperature-Humidity_Sensor/DHT11.c"
-Finished building: ../src/Temperature-Humidity_Sensor/DHT11.c
+arm-linux-gnueabihf-gcc -I"/home/thomas/workspace/RaspberryPi/wiringPi/src/wiringPi/wiringPi" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AD_TLC1543/tlc1543.d" -MT"src/AD_TLC1543/tlc1543.d" -o "src/AD_TLC1543/tlc1543.o" "../src/AD_TLC1543/tlc1543.c"
+../src/AD_TLC1543/tlc1543.c: In function ‘ADCSelChannel’:
+../src/AD_TLC1543/tlc1543.c:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/AD_TLC1543/tlc1543.c
  
 Building target: ARPI600_C-samples
 Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L"/home/thomas/workspace/RaspberryPi/wiringPi/lib" -o "ARPI600_C-samples"  ./src/Temperature-Humidity_Sensor/DHT11.o   -lwiringPi
+arm-linux-gnueabihf-gcc -L"/home/thomas/workspace/RaspberryPi/wiringPi/lib" -o "ARPI600_C-samples"  ./src/AD_TLC1543/tlc1543.o   -lwiringPi
 Finished building target: ARPI600_C-samples
  
+21:45:12 **** Incremental Build of configuration Debug for project ARPI600_C-samples ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+21:45:31 **** Incremental Build of configuration Debug for project ARPI600_C-samples ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
