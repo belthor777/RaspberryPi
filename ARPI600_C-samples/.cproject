@@ -27,6 +27,7 @@
 								<option id="gnu.c.compiler.option.include.paths.681557538" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wiringPi/src/wiringPi/wiringPi}&quot;"/>
 								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1252211901" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1961315082" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.814778152" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
@@ -54,7 +55,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="UV_Sensor|Tilt_Sensor|Temperature-Humidity_Sensor|Sound_Sensor|Rotation_Sensor|MQ-5_Gas_Sensor|Moisture_Sensor|Metal_Sensor|Liquid_Level_Sensor|Laser_Sensor|Infrared_Reflective_Sensor|Hall_Sensor|Flame_Sensor|Color_Sensor|Blink_LED" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Laser_Sensor|Blink_LED|Metal_Sensor|Color_Sensor|helloworld.c|MQ-5_Gas_Sensor|Infrared_Reflective_Sensor|Rotation_Sensor|Hall_Sensor|Tilt_Sensor|Moisture_Sensor|Sound_Sensor|Liquid_Level_Sensor|Flame_Sensor|UV_Sensor" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -104,7 +105,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="UV_Sensor|Tilt_Sensor|Temperature-Humidity_Sensor|Sound_Sensor|Rotation_Sensor|MQ-5_Gas_Sensor|Moisture_Sensor|Metal_Sensor|Liquid_Level_Sensor|Laser_Sensor|Infrared_Reflective_Sensor|Hall_Sensor|Flame_Sensor|Color_Sensor|Blink_LED" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Laser_Sensor|Blink_LED|Metal_Sensor|Color_Sensor|helloworld.c|MQ-5_Gas_Sensor|Infrared_Reflective_Sensor|Rotation_Sensor|Hall_Sensor|Tilt_Sensor|Moisture_Sensor|Sound_Sensor|Liquid_Level_Sensor|Flame_Sensor|UV_Sensor" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -124,4 +125,12 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/ARPI600_C-samples"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/ARPI600_C-samples"/>
+		</configuration>
+	</storageModule>
 </cproject>
